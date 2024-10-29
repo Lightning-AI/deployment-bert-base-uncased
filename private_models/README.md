@@ -34,11 +34,11 @@ echo $AWS_ACCOUNT_ID.dkr.ecr.$LIGHTNING_CLUSTER_PRIMARY_REGION.amazonaws.com/lit
 
 Enter the Docker Image and the Port 8000.
 
-<img src="../image.png" alt="drawing" style="width:200px;"/>
+<img src="../.images/deployment_simple.png" alt="drawing" style="width:200px;"/>
 
 In the `Advanced section`, expand `Environnement` and toggle on `Include SDK credentials`.
 
-<img src="sdk_envs.png" alt="drawing" style="width:200px;"/>
+<img src="../.images/deployment_advanced_env_sdk.png" alt="drawing" style="width:200px;"/>
 
 
 
