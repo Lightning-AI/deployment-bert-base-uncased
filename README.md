@@ -65,11 +65,10 @@ from lightning_sdk import Teamspace
 Teamspace().upload_model(folder, name=model_name)
 ```
 
-This shows how to persist an hugging face model to Lightning.AI platform
+This shows how to use your private models. Only a few extra lines are required. 
 
 ```diff
-index e60f1a9..9dd02c2 100755
-+      from lightning_sdk import Teamspace
++ from lightning_sdk import Teamspace
  
  class BERTLitAPI(LitAPI):
      def setup(self, device):
