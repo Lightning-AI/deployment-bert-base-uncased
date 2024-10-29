@@ -69,7 +69,6 @@ This shows how to persist an hugging face model to Lightning.AI platform
 
 ```diff
 index e60f1a9..9dd02c2 100755
--      
 +      from lightning_sdk import Teamspace
  
  class BERTLitAPI(LitAPI):
