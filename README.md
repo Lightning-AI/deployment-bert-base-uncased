@@ -1,12 +1,12 @@
 # deployment-bert-base-uncased
 
-### Structure
+## Structure
 
-#### Open Models
+### Open Models
 
 End-to-end example on how to deploy bert-base-uncased on Lightning.AI
 
-#### Private Models
+###  Private Models
 
 End-to-end example on how to deploy bert-base-uncased on Lightning.AI where the weights are stored on Lightning.AI
 
