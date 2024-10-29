@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 from litserve import LitAPI, LitServer
+from lightning_sdk import Teamspace
 
 class BERTLitAPI(LitAPI):
     def setup(self, device):
