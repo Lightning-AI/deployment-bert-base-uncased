@@ -3,7 +3,7 @@
 ## 1. Install requirements.txt
 
 ```bash
-pip install -r requirements.txt
+pip install -U -r requirements.txt
 ```
 
 ## 2. Create Dockerfile

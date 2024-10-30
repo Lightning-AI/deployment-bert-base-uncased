@@ -1,4 +1,4 @@
 litserve
-torch>=2.4.1+cpu
+torch
 transformers
 lightning_sdk
